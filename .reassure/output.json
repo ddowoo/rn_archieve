@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "current": {
+      "branch": "main",
+      "commitHash": "1e7ecca641557f34066a47e22cb659194fb39a09",
+      "creationDate": "2024-05-26T14:34:42.926Z"
+    },
+    "baseline": {
+      "branch": "main",
+      "commitHash": "1e7ecca641557f34066a47e22cb659194fb39a09",
+      "creationDate": "2024-05-26T14:34:33.109Z"
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "significant": [],
+  "meaningless": [
+    {
+      "name": "Flatlist 렌더링 최적화 전,후 비교",
+      "type": "render",
+      "baseline": {
+        "name": "Flatlist 렌더링 최적화 전,후 비교",
+        "type": "render",
+        "runs": 10,
+        "meanDuration": 10.9,
+        "stdevDuration": 1.5238839267549948,
+        "durations": [
+          9,
+          12,
+          10,
+          8,
+          11,
+          11,
+          13,
+          11,
+          12,
+          12
+        ],
+        "warmupDurations": [
+          78
+        ],
+        "meanCount": 2,
+        "stdevCount": 0,
+        "counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "current": {
+        "name": "Flatlist 렌더링 최적화 전,후 비교",
+        "type": "render",
+        "runs": 10,
+        "meanDuration": 11.5,
+        "stdevDuration": 0.5270462766947299,
+        "durations": [
+          11,
+          11,
+          11,
+          11,
+          12,
+          12,
+          12,
+          12,
+          11,
+          12
+        ],
+        "warmupDurations": [
+          76
+        ],
+        "meanCount": 2,
+        "stdevCount": 0,
+        "counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "durationDiff": 0.5999999999999996,
+      "relativeDurationDiff": 0.055045871559632996,
+      "isDurationDiffSignificant": false,
+      "countDiff": 0,
+      "relativeCountDiff": 0
+    }
+  ],
+  "countChanged": [],
+  "added": [],
+  "removed": []
+}
