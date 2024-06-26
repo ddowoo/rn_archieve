@@ -12,6 +12,7 @@ import Animated, {
   withSpring,
   withTiming,
 } from 'react-native-reanimated';
+import PanGesture from './panGesture';
 
 const LoadingBox = ({delaySeconds}: {delaySeconds: number}) => {
   const translateY = useSharedValue(0);
@@ -103,8 +104,9 @@ const Opacity = () => {
 const Reanimated = () => {
   return (
     <View style={styles.container}>
-      <Opacity />
+      {/* <Opacity /> */}
       {/* <InfLoading /> */}
+      <PanGesture />
     </View>
   );
 };
