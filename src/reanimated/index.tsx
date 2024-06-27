@@ -4,6 +4,7 @@ import PanGesture from './panGesture';
 import Opacity from './opacity';
 import InfLoading from './infLoading';
 import ScrollViewPro from './scrollViewPro';
+import InfScrollView from './infScrollView';
 
 const Reanimated = () => {
   return (
@@ -11,7 +12,8 @@ const Reanimated = () => {
       {/* <Opacity /> */}
       {/* <InfLoading /> */}
       {/* <PanGesture /> */}
-      <ScrollViewPro />
+      {/* <ScrollViewPro /> */}
+      <InfScrollView />
     </View>
   );
 };
